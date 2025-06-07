@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day11_assign4</title>
+    <style>
+        .cont{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: aliceblue;
+            width: 300px;
+            height: 300px;
+            margin-left: 600px;
+            margin-top: 200px;
+
+        }
+        .image{
+            width: 30px;
+            height: fit-content;
+        }
+        .username{
+            border: 1px solid black;
+            display: flex;
+        }
+        #user{
+            border: none;
+            border-left: 1px solid black;
+        }
+        input::placeholder{
+            padding-left: 5px;
+        }
+        .imga{
+            width: 30px;
+            height: fit-content;
+        }
+        .passw{
+            border: 1px solid black;
+            display: flex;
+            margin-top: 15px;
+        }
+        #pass{
+            border: none;
+            border-left: 1px solid black;
+        }
+        #login{
+            background-color: rgb(23, 23, 230);
+            color: white;
+            padding: 7px 78px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .butt{
+            margin-top: 15px;
+        }
+        .foot{
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            font-size: 13px;
+        }
+        #for{
+            text-decoration: none;
+        }
+        .remem{
+            margin-right: 30px;
+            display: flex;
+        }
+        #sign{
+            text-decoration: none;
+            font-size: 15px;
+        }
+        .s{
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div>
+            <h1 style="font-family: 'Lucida Handwriting', cursive;">Instagram</h1>
+        </div>
+
+        <div class="username">
+            <img class="image" src="https://cdn.pixabay.com/photo/2023/02/18/11/00/icon-7797704_640.png">
+            <input type="text" id="user" placeholder="Username">
+        </div>
+
+        <div class="passw">
+            <img class="imga" src="https://media.istockphoto.com/id/936681148/vector/lock-icon.jpg?s=612x612&w=0&k=20&c=_0AmWrBagdcee-KDhBUfLawC7Gh8CNPLWls73lKaNVA=">
+            <input type="text" id="pass" placeholder="Password">
+        </div>
+
+        <div class="butt">
+            <input type="submit" id="login" value="Log in">
+        </div>
+
+        <div class="foot">
+            <div class="remem"><input type="checkbox" id="rem"> Remember me</div>
+            <a href="#forgot" id="for">Forgot Password?</a>
+        </div>
+
+        <div class="s">
+            <p1>Don't have an account!</p1>
+            <a href="#signup" id="sign">Sign up here.</a>
+        </div>
+    </div>
+</body>
+</html>
